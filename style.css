@@ -1,0 +1,549 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+main {
+  width: 100%;
+  padding: 1.5rem;
+  padding-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+main .heading {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+main .heading img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .heading .text {
+  display: flex;
+  justify-content: space-between;
+  font-family: monospace;
+  text-transform: uppercase;
+  font-size: 1.1em;
+}
+main .hero {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+main .hero .image {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+main .hero .image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .hero .text {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+main .hero .text h1 {
+  text-transform: uppercase;
+  font-size: 3em;
+  line-height: 1;
+  font-weight: 300;
+  opacity: 0.8;
+}
+main .hero .text p {
+  font-family: monospace;
+  font-size: 1.5em;
+  font-weight: 200;
+  line-height: 1.3;
+  opacity: 0.7;
+}
+main .hero .text .services {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  text-transform: uppercase;
+}
+main .hero .text .services .service {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.6em;
+  font-family: monospace;
+}
+main .three {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  width: 100%;
+}
+main .three .image {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+main .three .image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .three .bottom {
+  display: flex;
+  gap: 2em;
+}
+main .three .bottom p {
+  writing-mode: vertical-rl;
+  padding-top: 0.8em;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 0.8em;
+}
+main .three .bottom .text h1 {
+  text-transform: uppercase;
+  line-height: 1;
+  font-size: 2.75em;
+  font-weight: 300;
+  opacity: 0.8;
+  letter-spacing: 0.05em;
+}
+main .three .bottom .text p {
+  writing-mode: initial;
+  text-transform: initial;
+  font-family: monospace;
+  font-size: 1.5em;
+  opacity: 0.7;
+}
+main .four {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  padding-bottom: 3em;
+}
+main .four .head h1 {
+  font-size: 3em;
+  letter-spacing: 0.05em;
+  font-weight: 300;
+}
+main .four .texting {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+main .four .texting .text {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+main .four .texting .text h3 {
+  font-size: 2em;
+  font-weight: 400;
+}
+main .four .texting .text p {
+  font-family: monospace;
+  font-size: 1.2em;
+  opacity: 0.8;
+}
+main .four .texting .text .image-text {
+  display: flex;
+  gap: 0.9em;
+  padding-top: 1em;
+}
+main .four .texting .text .image-text i {
+  font-weight: 800;
+}
+main .four .texting .text .image-text p {
+  font-size: 1.2em;
+  font-weight: 800;
+}
+main .four .image {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+main .four .image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .four .line {
+  padding-top: 3em;
+}
+main .five {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+main .five .image-text {
+  width: 100%;
+}
+main .five .image-text img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .five .boxes, main .five .boxes1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+main .five .boxes .imgs, main .five .boxes1 .imgs {
+  width: 100%;
+  height: auto;
+}
+main .five .boxes .imgs img, main .five .boxes1 .imgs img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .five .boxes .imgs2, main .five .boxes1 .imgs2 {
+  display: none;
+}
+main .five .boxes .text, main .five .boxes1 .text {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+main .five .boxes .text h2, main .five .boxes1 .text h2 {
+  font-size: 2.8em;
+  font-weight: 400;
+}
+main .five .boxes .text p, main .five .boxes1 .text p {
+  font-family: monospace;
+  font-size: 1.4em;
+  line-height: 1.5;
+  opacity: 0.8;
+}
+main .five .boxes .text .image-text, main .five .boxes1 .text .image-text {
+  display: flex;
+  gap: 0.9em;
+  padding-top: 1em;
+}
+main .five .boxes .text .image-text i, main .five .boxes1 .text .image-text i {
+  font-weight: 800;
+}
+main .five .boxes .text .image-text p, main .five .boxes1 .text .image-text p {
+  font-size: 1.2em;
+  font-weight: 800;
+}
+main .six {
+  width: 100%;
+  padding-top: 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  text-transform: uppercase;
+  padding-bottom: 2em;
+}
+main .six .image-text {
+  width: 100%;
+}
+main .six .image-text img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .six .context {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1em;
+}
+main .six .context .content1 p {
+  opacity: 0.8;
+}
+main .six .context .content2 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1em;
+}
+main .six .context .content2 h2 {
+  font-size: 2em;
+  font-weight: 350;
+}
+main .six .context .content2 p {
+  opacity: 0.8;
+}
+main .seven {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5em;
+}
+main .seven .head {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+main .seven .head h2 {
+  font-size: 4em;
+  font-weight: 300;
+  font-family: monospace;
+}
+main .seven .head p {
+  font-family: monospace;
+  font-size: 1.2em;
+  opacity: 0.8;
+  line-height: 1.4;
+}
+main .seven .bottom {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+main .seven .bottom .box {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+main .seven .bottom .box h3 {
+  text-transform: uppercase;
+  font-family: monospace;
+  font-size: 2.1em;
+  font-weight: 300;
+}
+main .seven .bottom .box .img {
+  width: 100%;
+  aspect-ratio: 1/1.2;
+}
+main .seven .bottom .box .img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .seven .bottom .box .text .name {
+  display: flex;
+  align-items: center;
+  font-size: 1em;
+  justify-content: space-between;
+}
+main .seven .bottom .box .text .name p {
+  text-transform: uppercase;
+  font-family: monospace;
+  letter-spacing: 0.06em;
+}
+main .seven .bottom .box .text .name .tags {
+  display: flex;
+  opacity: 0.8;
+  gap: 0.8em;
+}
+main .seven .bottom .box .para p {
+  font-size: 1.18em;
+  opacity: 0.8;
+  font-family: monospace;
+  line-height: 1.4;
+}
+main .eight {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  text-transform: uppercase;
+}
+main .eight .top {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+main .eight .top p {
+  font-family: monospace;
+  font-size: 1.2em;
+}
+main .eight .top h3 {
+  font-size: 2.5em;
+  font-weight: 400;
+  line-height: 1em;
+}
+main .eight .text {
+  padding-top: 1em;
+  display: flex;
+  gap: 1em;
+  font-weight: 500;
+}
+
+@media (min-width: 900px) {
+  main {
+    padding: 4rem;
+    gap: 4em;
+  }
+  main .hero {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 4em;
+  }
+  main .hero .text h1 {
+    font-size: 4.7em;
+    letter-spacing: 0.05em;
+  }
+  main .hero .text p {
+    font-size: 1.6em;
+  }
+  main .hero .text .services {
+    margin-top: auto;
+  }
+  main .three {
+    flex-direction: row;
+    gap: 4em;
+  }
+  main .three .image {
+    width: 25%;
+  }
+  main .three .bottom {
+    width: 75%;
+    flex-direction: row-reverse;
+  }
+  main .three .bottom .text {
+    display: flex;
+    flex-direction: column;
+    padding-right: 7em;
+  }
+  main .three .bottom .text h1 {
+    font-size: 5em;
+  }
+  main .three .bottom .text p {
+    margin-top: auto;
+  }
+  main .four {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 4em;
+  }
+  main .four .texting {
+    width: 50%;
+    padding-top: 2em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  main .four .texting .head {
+    width: 70%;
+  }
+  main .four .texting .head h1 {
+    font-size: 5.3em;
+    line-height: 1;
+  }
+  main .four .texting .text {
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 40%;
+  }
+  main .four .image {
+    width: 50%;
+  }
+  main .five .boxes {
+    width: 100%;
+    flex-direction: row;
+    padding-top: 2em;
+    justify-content: space-between;
+  }
+  main .five .boxes .imgs2 {
+    display: initial;
+  }
+  main .five .boxes .text {
+    padding-top: 2em;
+  }
+  main .five .boxes .text h2 {
+    font-size: 4em;
+  }
+  main .five .boxes .text .image-text {
+    margin: auto;
+  }
+  main .five .boxes1 {
+    width: 100%;
+    flex-direction: row-reverse;
+    padding-top: 2em;
+    justify-content: space-between;
+  }
+  main .five .boxes1 .imgs2 {
+    display: initial;
+  }
+  main .five .boxes1 .text {
+    padding-top: 2em;
+  }
+  main .five .boxes1 .text h2 {
+    font-size: 4em;
+  }
+  main .five .boxes1 .text .image-text {
+    margin: auto;
+  }
+  main .six {
+    width: 66%;
+    gap: 2em;
+    margin-left: 34%;
+  }
+  main .six .image-text img {
+    width: 50%;
+    height: 50%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin-left: 50%;
+  }
+  main .six .context {
+    flex-direction: row;
+    gap: 3em;
+  }
+  main .six .context .content1 {
+    display: flex;
+    align-items: center;
+  }
+  main .six .context .content2 {
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+  }
+  main .six .context .content2 p {
+    font-size: 0.7em;
+    margin-left: auto;
+  }
+  main .seven {
+    flex-direction: column;
+    gap: 6em;
+  }
+  main .seven .head {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  main .seven .head h2 {
+    font-size: 10em;
+  }
+  main .seven .head p {
+    width: 48%;
+    font-size: 1.5em;
+  }
+  main .seven .bottom {
+    flex-direction: row;
+  }
+  main .seven .bottom .box .para {
+    padding-top: 1em;
+  }
+  main .eight {
+    width: 48%;
+    margin-left: 52%;
+  }
+  main .eight .top h3 {
+    font-size: 4em;
+  }
+}/*# sourceMappingURL=style.css.map */
